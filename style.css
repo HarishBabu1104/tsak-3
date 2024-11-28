@@ -1,0 +1,818 @@
+.body {
+  margin: 0px;
+}
+.label {
+  margin: 32px;
+  padding-left: 190px;
+  font-size: 16px;
+  display: flex;
+}
+
+.page1 {
+  margin-left: -24px;
+}
+.page2 {
+  margin-left: -24px;
+}
+.screen1 {
+  margin-top: -80px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  padding-top: 28px;
+}
+.logo {
+  display: inline;
+  text-decoration-line: none;
+}
+
+.menu {
+  padding-right: 6px;
+  width: 400px;
+  float: left;
+  padding-left: 60px;
+  word-spacing: 38px;
+  font-size: 14px;
+  top: 16px;
+  margin-top: 8px;
+}
+
+.menu a {
+  text-decoration: none;
+  display: inline;
+}
+
+.menu a:hover {
+  color: #fa7436;
+  transition: 0.7s;
+}
+
+.login {
+  margin-left: 18px;
+  background: transparent;
+  color: #fa7436;
+  border: none;
+  padding: 6px 42px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  display: inline;
+}
+
+.signup {
+  margin-left: 18px;
+  background: #fa7436;
+  padding: 6px 42px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins";
+  border: 2px solid #fa7436;
+}
+
+.login:hover {
+  color: black;
+  transition: 0.7s;
+}
+
+.signup:hover {
+  background: rgb(255, 255, 255);
+  color: #fa7436;
+  transition: 0.7s;
+}
+
+.screen1 {
+  width: 100%;
+}
+.para1 {
+  margin: 32px;
+  padding-left: 190px;
+  font-family: "volkhov-bold";
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.j {
+  color: #fa7436;
+}
+
+.para2 {
+  font-family: "Poppins";
+  font-size: 20px;
+  color: #666666;
+  margin: 32px;
+  padding-left: 190px;
+  margin-top: -40px;
+}
+
+.img1 {
+  display: flex;
+  height: 43%;
+  width: 43%;
+  float: left;
+  padding-left: 653px;
+  margin-top: -420px;
+}
+.filter-item > h2 {
+  display: inline;
+  font-size: 16px;
+}
+
+.dn {
+  padding: 6px 42px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  color: #fa7436;
+  border: 1px solid #fa7436;
+  background-color: white;
+  padding-left: 42px;
+}
+
+.dn:hover {
+  background-color: #fa7436;
+  color: white;
+  transition: 0.7s;
+}
+
+.sec-box {
+  margin: 64px;
+  margin-top: 120px;
+  margin-left: -10px;
+  padding-left: 300px;
+  padding-right: 70px;
+}
+
+.EX {
+  background-color: #fa7436;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  margin-bottom: 26px;
+}
+
+.EX:hover {
+  background-color: white;
+  color: #fa7436;
+  cursor: pointer;
+  transition: 0.7;
+  border: 1px solid #fa7436;
+}
+
+.para3 {
+  background-color: #f7f8fc;
+  height: 90vh;
+  padding: 70px;
+  justify-content: center;
+  display: flex;
+  width: 90%;
+}
+
+.home2 {
+  font-family: "Poppins";
+  font-size: 16px;
+  justify-content: center;
+  padding-left: 380px;
+}
+h3 {
+  font-family: "volkhov-bold";
+  font-size: 48px;
+  justify-content: center;
+  padding-left: 1px;
+}
+
+.home2 > p {
+  font-size: 16px;
+  margin-top: -28px;
+  padding-left: 28px;
+  color: #666666;
+}
+
+.el {
+  height: 90px;
+  width: 120px;
+  margin-top: 68px;
+  padding-right: 190px;
+}
+
+.home2p {
+  padding-left: 38px;
+}
+
+.cards {
+  top: 28px;
+  box-shadow: rgb(236, 236, 236);
+  background: white;
+  width: 50%;
+  justify-content: center;
+  margin-top: 60px;
+  margin-left: -210px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  box-shadow: 2px 4px 8px 4px rgba(180, 180, 180, 0.2);
+  flex-wrap: wrap;
+}
+.cards1 {
+  box-shadow: rgb(236, 236, 236);
+  background: white;
+  width: 50%;
+  justify-content: center;
+  margin-top: -210px;
+  margin-left: 96px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  box-shadow: 2px 4px 8px 4px rgba(180, 180, 180, 0.2);
+  flex-wrap: wrap;
+}
+.cards2 {
+  position: flex;
+  box-shadow: rgb(236, 236, 236);
+  background: white;
+  width: 50%;
+  justify-content: center;
+  margin-top: -210px;
+  margin-left: 400px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  box-shadow: 2px 4px 8px 4px rgba(180, 180, 180, 0.2);
+  flex-wrap: wrap;
+}
+
+.things-card {
+  font-size: 12px;
+  width: 110%;
+  margin-top: 6px;
+  margin-left: 16px;
+  justify-content: center;
+  flex-shrink: 0;
+  flex-grow: unset;
+}
+.things-card1 {
+  font-size: 12px;
+  width: 110%;
+  margin-top: 6px;
+  margin-left: 16px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.things-card2 {
+  font-size: 12px;
+  width: 110%;
+  margin-top: 6px;
+  margin-left: 16px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.page1 {
+  width: 100%;
+}
+
+.vector {
+  padding-bottom: 170px;
+  margin-left: 6px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (min-width: 956px) and (max-width: 1115px) {
+  body {
+    justify-content: center;
+  }
+  .el {
+    height: 90px;
+    width: 120px;
+    margin-top: 68px;
+  }
+  .menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+    margin-left: 16px;
+    margin-top: 4px;
+    font-size: 27px;
+    cursor: pointer;
+    padding-left: 40px;
+    float: right;
+  }
+
+  .menu-icon:hover {
+    color: #fa7436;
+  }
+  .label {
+    margin-bottom: -110px;
+  }
+
+  .para1 > p {
+    font-size: 40px;
+  }
+  .para2 > p {
+    font-size: 14px;
+  }
+  .loginsignup {
+    width: 100%;
+  }
+  .login {
+    float: right;
+  }
+  .signup {
+    float: right;
+  }
+  .img1 {
+    margin-top: -320px;
+    float: right;
+    padding-left: 120px;
+    height: 52vh;
+  }
+  .dn {
+    font-size: 9px;
+  }
+  .sec-box {
+    width: 70%;
+  }
+  .filter-item {
+    font-size: 9px;
+  }
+  .filter-item > h2 {
+    font-size: 10px;
+  }
+  .EX {
+    font-size: 10px;
+  }
+  .sec-box {
+    margin-left: -10px;
+  }
+  .para3 {
+    width: 100%;
+    height: 80vh;
+    margin-left: -10px;
+  }
+
+  .home2 {
+    margin-left: -78px;
+  }
+  .home2 > h3 {
+    font-size: 40px;
+  }
+  .home2 > p {
+    font-size: 14px;
+  }
+
+  .cards {
+    width: 45%;
+  }
+  .cards1 {
+    width: 45%;
+    margin-top: -179px;
+  }
+  .cards2 {
+    margin-top: -179px;
+    width: 45%;
+  }
+  .things-card img {
+    width: 30px;
+  }
+  .things-card1 img {
+    width: 30px;
+  }
+  .things-card2 img {
+    width: 30px;
+  }
+  .things-card {
+    font-size: 10px;
+  }
+  .things-card1 {
+    font-size: 10px;
+  }
+  .things-card2 {
+    font-size: 10px;
+  }
+  .el {
+    margin-left: -40px;
+  }
+}
+
+@media screen and (min-width: 896px) and (max-width: 956px) {
+  body {
+    justify-content: center;
+  }
+  .page1 {
+    margin-left: -65px;
+  }
+  .el {
+    height: 90px;
+    width: 120px;
+    margin-top: 68px;
+  }
+  .menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+    margin-left: 16px;
+    margin-top: 4px;
+    font-size: 27px;
+    cursor: pointer;
+    padding-left: 40px;
+    float: right;
+  }
+
+  .menu-icon:hover {
+    color: #fa7436;
+  }
+  .label {
+    margin-bottom: -110px;
+  }
+
+  .para1 > p {
+    font-size: 40px;
+  }
+  .para2 > p {
+    font-size: 14px;
+  }
+  .loginsignup {
+    width: 100%;
+  }
+  .login {
+    float: right;
+  }
+  .signup {
+    float: right;
+  }
+  .img1 {
+    margin-top: -320px;
+    float: right;
+    margin-left: 10px;
+    height: 52vh;
+  }
+  .dn {
+    font-size: 9px;
+  }
+  .sec-box {
+    width: 70%;
+  }
+  .filter-item {
+    font-size: 9px;
+  }
+  .filter-item > h2 {
+    font-size: 10px;
+  }
+  .EX {
+    font-size: 10px;
+  }
+  .sec-box {
+    margin-left: -10px;
+  }
+  .para3 {
+    width: 100%;
+    height: 80vh;
+    margin-left: -10px;
+  }
+
+  .home2 {
+    margin-left: -78px;
+  }
+  .home2 > h3 {
+    font-size: 40px;
+  }
+  .home2 > p {
+    font-size: 14px;
+  }
+
+  .cards {
+    width: 45%;
+  }
+  .cards1 {
+    width: 45%;
+    margin-top: -179px;
+  }
+  .cards2 {
+    margin-top: -179px;
+    width: 45%;
+  }
+  .things-card img {
+    width: 30px;
+  }
+  .things-card1 img {
+    width: 30px;
+  }
+  .things-card2 img {
+    width: 30px;
+  }
+  .things-card {
+    font-size: 10px;
+  }
+  .things-card1 {
+    font-size: 10px;
+  }
+  .things-card2 {
+    font-size: 10px;
+  }
+  .el {
+    margin-left: -40px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 896px) {
+  body {
+    justify-content: center;
+  }
+  .page1 {
+    margin-left: -45px;
+  }
+  .el {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+    margin-left: 16px;
+    margin-top: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 40px;
+    float: right;
+  }
+
+  .menu-icon:hover {
+    color: #fa7436;
+  }
+  .label {
+    margin-bottom: -140px;
+  }
+  .logo {
+    font-size: 14px;
+  }
+  .para1 > p {
+    font-size: 26px;
+  }
+  .para2 > p {
+    font-size: 8px;
+    padding-top: 8px;
+  }
+  .loginsignup {
+    width: 100%;
+  }
+  .login {
+    float: right;
+    width: 80px;
+    font-size: 10px;
+    margin-left: 12px;
+    padding-left: 29px;
+  }
+  .signup {
+    float: right;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .img1 {
+    margin-top: -220px;
+    float: right;
+    height: 30vh;
+    width: 14pc;
+  }
+  .dn {
+    font-size: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+  }
+  .sec-box {
+    width: 80%;
+    margin-top: -20px;
+    padding-left: 240px;
+  }
+  .filter-item {
+    font-size: 7px;
+    margin-top: -10px;
+  }
+  .filter-item > h2 {
+    font-size: 10px;
+  }
+  .EX {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .sec-box {
+    margin-left: -10px;
+  }
+  .para3 {
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+  }
+
+  .home2 {
+    margin-left: -198px;
+  }
+  .home2 > h3 {
+    font-size: 29px;
+    margin-left: -70px;
+  }
+  .home2 > p {
+    font-size: 9px;
+    margin-left: -70px;
+  }
+
+  .cards {
+    width: 50%;
+    margin-left: -190px;
+    padding-right: -190px;
+  }
+  .cards1 {
+    width: 50%;
+    top: 34px;
+    margin-left: -10px;
+    margin-top: -147px;
+  }
+  .cards2 {
+    top: 67px;
+    width: 50%;
+    margin-top: -149px;
+    margin-left: 170px;
+    padding-right: -290px;
+  }
+  .things-card img {
+    width: 20px;
+  }
+  .things-card1 img {
+    width: 20px;
+  }
+  .things-card2 img {
+    width: 20px;
+  }
+  .things-card {
+    font-size: 8px;
+  }
+  .things-card1 {
+    font-size: 8px;
+  }
+  .things-card2 {
+    font-size: 8px;
+  }
+  .el {
+    margin-left: -40px;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 896px) {
+  body {
+    justify-content: center;
+  }
+  .page1 {
+    margin-left: -45px;
+  }
+  .el {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+    margin-left: 16px;
+    margin-top: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 40px;
+    float: right;
+  }
+
+  .menu-icon:hover {
+    color: #fa7436;
+  }
+  .label {
+    margin-bottom: -140px;
+  }
+  .logo {
+    font-size: 14px;
+  }
+  .para1 > p {
+    font-size: 26px;
+  }
+  .para2 > p {
+    font-size: 8px;
+    padding-top: 8px;
+  }
+  .loginsignup {
+    width: 100%;
+  }
+  .login {
+    float: right;
+    width: 80px;
+    font-size: 10px;
+    margin-left: 12px;
+    padding-left: 29px;
+  }
+  .signup {
+    float: right;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .img1 {
+    margin-top: -220px;
+    float: right;
+    height: 30vh;
+    width: 14pc;
+  }
+  .dn {
+    font-size: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+  }
+  .sec-box {
+    width: 80%;
+    margin-top: -20px;
+    padding-left: 240px;
+  }
+  .filter-item {
+    font-size: 7px;
+    margin-top: -10px;
+  }
+  .filter-item > h2 {
+    font-size: 10px;
+  }
+  .EX {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+  .sec-box {
+    margin-left: -10px;
+  }
+  .para3 {
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+  }
+
+  .home2 {
+    margin-left: -198px;
+  }
+  .home2 > h3 {
+    font-size: 29px;
+    margin-left: -70px;
+  }
+  .home2 > p {
+    font-size: 9px;
+    margin-left: -70px;
+  }
+
+  .cards {
+    width: 50%;
+    margin-left: -190px;
+    padding-right: -190px;
+  }
+  .cards1 {
+    width: 50%;
+    top: 34px;
+    margin-left: -10px;
+    margin-top: -147px;
+  }
+  .cards2 {
+    top: 67px;
+    width: 50%;
+    margin-top: -149px;
+    margin-left: 170px;
+    padding-right: -290px;
+  }
+  .things-card img {
+    width: 20px;
+  }
+  .things-card1 img {
+    width: 20px;
+  }
+  .things-card2 img {
+    width: 20px;
+  }
+  .things-card {
+    font-size: 8px;
+  }
+  .things-card1 {
+    font-size: 8px;
+  }
+  .things-card2 {
+    font-size: 8px;
+  }
+  .el {
+    margin-left: -40px;
+  }
+}
